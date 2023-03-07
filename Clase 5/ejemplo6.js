@@ -5,5 +5,6 @@ console.log("ciudad" in persona1);
 
 //operador in en un for
 for (const propiedad in persona1) {
+    console.log(propiedad);
     console.log(persona1[propiedad]);
 }
